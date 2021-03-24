@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game3</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <section>
+        <h1>Juego Memoria Didactica</h1>
+        <div class="contenedor">
+            <div class="tabla">
+                <div class="carta voltear-inicio" data-id="elbeso">
+                    <div class="frontal">
+                        <img src="img/elbeso.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="elbeso">
+                    <div class="frontal">
+                        <img src="img/elbeso.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="elcristoamarillo">
+                    <div class="frontal">
+                        <img src="img/elcristoamarillo.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="elcristoamarillo">
+                    <div class="frontal">
+                        <img src="img/elcristoamarillo.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="eljardindelasdelicias">
+                    <div class="frontal">
+                        <img src="img/eljardindelasdelicias.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="eljardindelasdelicias">
+                    <div class="frontal">
+                        <img src="img/eljardindelasdelicias.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="lamonalisa">
+                    <div class="frontal">
+                        <img src="img/lamonalisa.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio"  data-id="lamonalisa">
+                    <div class="frontal">
+                        <img src="img/lamonalisa.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="escuelaatenas">
+                    <div class="frontal">
+                        <img src="img/escuelaatenas.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="escuelaatenas">
+                    <div class="frontal">
+                        <img src="img/escuelaatenas.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="informacion">
+                <div class="informacion-carta" data-id="elbeso" style="background-color: chocolate;">
+                    <p>El Beso</p>
+                    <p>1907-1908</p>
+                    <p>Gustav Klimt</p>
+                    <p>Simbolismo</p> 
+                </div>
+
+                <div class="informacion-carta" data-id="elcristoamarillo" style="background-color: rgba(207, 32, 32, 0.62);">
+                    <p>El Cristo Amarillo</p>
+                    <p>1889</p>
+                    <p>Paul Gaugin</p>
+                    <p>Fauvismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="eljardindelasdelicias" style="background-color: rgba(207, 164, 32, 0.62);">
+                    <p>El Jardin de las Delicias</p>
+                    <p>1500-1505</p>
+                    <p>Hieronymus Bosh</p>
+                    <p>Fauvismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="lamonalisa"style="background-color: rgba(99, 207, 32, 0.62);">
+                    <p>La mona Lisa</p>
+                    <p>1503</p>
+                    <p>Leonardo da Vinci</p>
+                    <p>Renacimiento</p>
+                </div>
+
+                <div class="informacion-carta" data-id="escuelaatenas" style="background-color: rgba(32, 207, 190, 0.62);">
+                    <p>La escuela de Atenas</p>
+                    <p>1509</p>
+                    <p>Rafael Sanzio</p>
+                    <p>Renacimiento</p>
+                </div>
+            </div>
+        </div><!--Fin pantalla 1 Nivel 1-->
+
+        <!-- Pantalla 2 Nivel 1-->
+
+        <div class="contenedor-pantalla2">
+            <div class="tabla">
+                <div class="carta voltear-inicio" data-id="lanocheestrellada">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/lanocheestrellada.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="lanocheestrellada">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/lanocheestrellada.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="femme">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/femme.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="femme">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/femme.jpg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="convexoyconcavo">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/convexoyconcavo.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="convexoyconcavo">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/convexoyconcavo.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="manosdibujando">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/manosdibujando.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio"  data-id="manosdibujando">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/manosdibujando.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="figurareclinada">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/figurareclinada.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="figurareclinada">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/figurareclinada.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta voltear-inicio" data-id="donmanuel">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/donmanuel.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="donmanuel">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/donmanuel.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="losfusilamientos">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/losfusilamientos.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="losfusilamientos">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/losfusilamientos.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="lasdosfridas">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/lasdosfridas.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="lasdosfridas">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/lasdosfridas.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="yellowredblue">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/yellowredblue.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio"  data-id="yellowredblue">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/yellowredblue.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="losgirasoles">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/losgirasoles.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="losgirasoles">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla2/losgirasoles.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="informacion">
+                <div class="informacion-carta" data-id="lanocheestrellada" style="background-color: chocolate;">
+                    <p>La noche estrellada</p>
+                    <p>1889</p>
+                    <p>Vincent VanGogh</p>
+                    <p>Post Impresionismo</p> 
+                </div>
+
+                <div class="informacion-carta" data-id="femme">
+                    <p>Femme a sa toilette</p>
+                    <p>1889</p>
+                    <p>Henri de Toulouse-Lautrec</p>
+                    <p>Post Impresionismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="convexoyconcavo">
+                    <p>Convexo y cóncavo</p>
+                    <p>1955</p>
+                    <p>Maurits Cornelis Escher</p>
+                    <p>Contemporáneo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="manosdibujando">
+                    <p>Manos dibujando</p>
+                    <p>1948</p>
+                    <p>Maurits Cornelis Escher</p>
+                    <p>Contemporáneo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="figurareclinada">
+                    <p>Figura reclinada</p>
+                    <p>1938</p>
+                    <p>Henry Moore</p>
+                    <p>Abstracto</p>
+                </div>
+
+                <div class="informacion-carta" data-id="donmanuel" style="background-color: chocolate;">
+                    <p>Don Manuel Osorio Manrique de Zúñiga</p>
+                    <p>1787</p>
+                    <p>Francisco de Goya</p>
+                    <p>Neoclasisismo</p> 
+                </div>
+
+                <div class="informacion-carta" data-id="losfusilamientos">
+                    <p>Los fusilamientos del 3 de Mayo</p>
+                    <p>1814</p>
+                    <p>Francisco de Goya</p>
+                    <p>Romanticismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="lasdosfridas">
+                    <p>Las dos Fridas</p>
+                    <p>1939</p>
+                    <p>Frida Kahlo</p>
+                    <p>Realismo mágico</p>
+                </div>
+
+                <div class="informacion-carta" data-id="yellowredblue">
+                    <p>Yellow-Red-Blue</p>
+                    <p>1925</p>
+                    <p>Wassily Kandinsky</p>
+                    <p>Arte abstracto</p>
+                </div>
+
+                <div class="informacion-carta" data-id="losgirasoles">
+                    <p>Los girasoles</p>
+                    <p>1888</p>
+                    <p>Vincent van Gogh</p>
+                    <p>Postimpresionismo</p>
+                </div>
+            </div>
+        </div><!-- Fin pantalla 2 nivel 1-->
+
+        <!-- Pantalla 3 nivel 1-->
+
+        <div class="contenedor-pantalla3">
+            <div class="tabla">
+                <div class="carta voltear-inicio" data-id="blancosobreblanco">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/blancosobreblanco.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="blancosobreblanco">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/blancosobreblanco.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="lapiedad">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/lapiedad.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="lapiedad">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/lapiedad.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="labañera">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/labañera.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="labañera">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/labañera.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="elgrito">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/elgrito.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio"  data-id="elgrito">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/elgrito.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="lajovendelaperla">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/lajovendelaperla.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="lajovendelaperla">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/lajovendelaperla.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta voltear-inicio" data-id="elcaminante">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/elcaminante.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="elcaminante">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/elcaminante.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="losjugadoresdecartas">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/losjugadoresdecartas.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="losjugadoresdecartas">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/losjugadoresdecartas.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="islasrodeadas">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/islasrodeadas.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="islasrodeadas">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/islasrodeadas.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="lapersistencia">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/lapersistencia.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio"  data-id="lapersistencia">
+                    <div class="frontal">
+                        <img src="img//nivel1_pantalla3/lapersistencia.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="carta  voltear-inicio" data-id="losnenufares">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/losnenufares.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="carta  voltear-inicio" data-id="losnenufares">
+                    <div class="frontal">
+                        <img src="img/nivel1_pantalla3/lapersistencia.jpeg" alt="">
+                    </div>
+                    <div class="trasera">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="informacion">
+                <div class="informacion-carta" data-id="blancosobreblanco" style="background-color: chocolate;">
+                    <p>Blanco sobre blanco</p>
+                    <p>1918</p>
+                    <p>Kasimir Malévich</p>
+                    <p>Suprematismo</p> 
+                </div>
+
+                <div class="informacion-carta" data-id="lapiedad">
+                    <p>La Piedad de la basílica de San Pedro</p>
+                    <p>1498–1499</p>
+                    <p>Miguel Ángel</p>
+                    <p>Renacentista</p>
+                </div>
+
+                <div class="informacion-carta" data-id="labañera">
+                    <p>La bañera</p>
+                    <p>1886</p>
+                    <p>Edgar Degas</p>
+                    <p>Impresionismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="elgrito">
+                    <p>El grito</p>
+                    <p>1893</p>
+                    <p>Edvard Munch</p>
+                    <p>Expresionismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="lajovendelaperla">
+                    <p>La joven de la perla</p>
+                    <p>1665–1667</p>
+                    <p>Johannes Vermeer</p>
+                    <p>Barroco flamenco holandés</p>
+                </div>
+
+                <div class="informacion-carta" data-id="elcaminante" style="background-color: chocolate;">
+                    <p>El caminante sobre el mar de nubes</p>
+                    <p>1818</p>
+                    <p>Caspar David Friedrich</p>
+                    <p>Romanticismo</p> 
+                </div>
+
+                <div class="informacion-carta" data-id="losjugadoresdecartas">
+                    <p>Los jugadores de cartas</p>
+                    <p>1890-1895</p>
+                    <p>Paul Cézanne</p>
+                    <p>Postimpresionismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="islasrodeadas">
+                    <p>Islas rodeadas</p>
+                    <p>1980-1983</p>
+                    <p>Christo y Jeanne-Claude</p>
+                    <p>Land Art</p>
+                </div>
+
+                <div class="informacion-carta" data-id="lapersistencia">
+                    <p>La persistencia de la memoria o los relojes blandos</p>
+                    <p>1931</p>
+                    <p>Salvador Dalí</p>
+                    <p>Surrealismo</p>
+                </div>
+
+                <div class="informacion-carta" data-id="losnenufares">
+                    <p>Los nenúfares</p>
+                    <p>1920-1926</p>
+                    <p>Claude- Monet</p>
+                    <p>impresionismo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/index.js"></script>
+</html>

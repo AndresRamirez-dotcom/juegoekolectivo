@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+
+    .container-inicio{
+        left: 0;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .contenedor {
+        flex-direction: column;
+    }
+    
+    .tabla {
+        width: 100%;
+        
+    }
+    
+    .carta {
+        width: 18.5%;
+    }
+    .frontal, .trasera {
+        height: 180px;
+    }
+    .informacion {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .informacion-carta{
+        width: 50%;
+    }
+
+}
